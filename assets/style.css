@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: grey;
+}
+
+.card {
+    background-color: white;
+    padding: 1.5em;
+    border-radius: 25px;
+    width: 100%;
+    max-width: 420px;
+    margin: 1em;
+}
+
