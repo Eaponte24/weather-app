@@ -21,11 +21,44 @@
 }
 
 .card {
-    background-color: white;
+    background-color: var(--dark);
+    color: var(--light);
     padding: 1.5em;
     border-radius: 25px;
     width: 100%;
     max-width: 420px;
     margin: 1em;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+button {
+    margin: 1em;
+    border: none;
+    height: 3em;
+    width: 3em;
+    border-radius: 25px;
+    }
+
+button:hover {
+    background: var(--dark);
+    color: var(--light);
+    cursor: pointer;
+}
+
+input {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    border: none;
+    outline: none;
+    padding: 0.4em;
+    border-radius: 20px;
+    font-size: 110%;
+    width: 100%;
 }
 
