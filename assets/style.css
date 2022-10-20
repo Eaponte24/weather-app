@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Nunito+Sans:wght@600&display=swap');
+
+:root {
+    --dark: rgb(37, 37, 37);
+    --light: rgb(255, 255, 255);
+    --header: rgb(57, 122, 117);
+    --buttons: rgb(194, 156, 62, 0.781);
+}
+
+/* flex conatiner stlying with background image with a random landscape query attched to it */
 .container {
+    font-family: 'Gemunu Libre', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
     background: grey;
+    background-image: url(" https://source.unsplash.com/random/2000x1100/?landscape");
 }
 
 .card {
