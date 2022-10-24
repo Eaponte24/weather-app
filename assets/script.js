@@ -8,13 +8,14 @@ var weather = {
         .then((data) =>  this.displayWeather(data));
     },
 
+
     displayWeather: function(data) {
        var {name} = data; 
        var {icon, description} = data.weather[0];
        var {temp, humidity } = data.main;
        var {speed} = data.wind
 
-       console.log(name, icon, description, temp, humidity, speed)
+        console.log(name, icon, description, temp, humidity, speed)
 
        document.querySelector(".city").innerText = "Weather in " + name;
        document.querySelector(".icon").src = "https://openweathermap.org/img/wn/" + icon + ".png";
@@ -35,3 +36,7 @@ var weather = {
 
   });
 
+  
+
+    
+  

@@ -62,4 +62,9 @@ input {
 }
 
 
-
+.forecast {
+   background: black;
+   color: white;
+   font-size: 90%;
+   padding: 5px;
+}
