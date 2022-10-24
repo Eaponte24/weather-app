@@ -8,7 +8,7 @@ var weather = {
         .then((data) =>  this.displayWeather(data));
     },
 
-
+    // this function is displaying the weather for TODAY in the main card
     displayWeather: function(data) {
        var {name} = data; 
        var {icon, description} = data.weather[0];
@@ -30,7 +30,7 @@ var weather = {
         this.fetchWeather(document.querySelector('.search-bar').value)
     }
   };
-
+   // this is giving th event listener to the click on the button
   document.querySelector(".search button").addEventListener('click', function(){
     weather.search();
 

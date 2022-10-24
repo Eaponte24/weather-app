@@ -7,7 +7,7 @@ var weatherForecast = {
         .then((response) => response.json() )
         .then((data) => this.displayForecast(data));
     }, 
-    
+        // this is displaying the forecast ont he right 
         displayForecast: function(data) {
         
         var {icon, description} = data.list[0].weather[0];

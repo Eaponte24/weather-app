@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@300&family=Nunito+Sans:wght@600&display=swap');
 
 :root {
-    --dark: rgb(37, 37, 37);
+    --dark: rgba(37, 37, 37, 0.795);
     --light: rgb(255, 255, 255);
     --header: rgb(57, 122, 117);
     --buttons: rgb(194, 156, 62, 0.781);
@@ -16,7 +16,7 @@
     align-items: center;
     height: 100vh;
     margin: 0;
-    background-image: url(" https://source.unsplash.com/random/2000x1100/?landscape");
+    background-image: url("https://source.unsplash.com/random/2000x1100/?landscape");
 }
 
 .card {
@@ -63,8 +63,10 @@ input {
 
 
 .forecast {
-   background: black;
-   color: white;
-   font-size: 90%;
-   padding: 5px;
+   background: var(--dark);
+   color: var(--light);
+   font-size: 70%;
+   padding: 10px;
+   
+
 }
