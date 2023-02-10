@@ -2,7 +2,7 @@
 
 ## Description
 
-I've created a simple and easy to use weather application to view a cities weather and 5 day forecaste to the right, its a very quick and simplistic way to view the data with just one click of a button. 
+I've created a simple and easy to use weather application to view a cities weather and 5 day forecast to the right, its a very quick and simplistic way to view the data with just one click of a button. 
 
 ## Usage
 
